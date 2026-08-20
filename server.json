@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/ibge_area_territorial-mcp",
+  "title": "IBGE: Área territorial brasileira",
+  "description": "IBGE: Área territorial brasileira, official-source lookup. Platform-hosted, pay per query with prepa",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/ibge_area_territorial-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_ibge_area_territorial"
+    }
+  ]
+}
